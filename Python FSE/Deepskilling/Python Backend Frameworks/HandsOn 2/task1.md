@@ -1,6 +1,8 @@
+## Hands-On 2 – Task 1: Define Models and Run Migrations
+# courses/models.py
+
+```
 from django.db import models
-
-
 class Department(models.Model):
     name = models.CharField(max_length=100)
     head_of_dept = models.CharField(max_length=100)
@@ -58,3 +60,9 @@ class Enrollment(models.Model):
 
     def __str__(self):
         return f"{self.student} - {self.course}"
+```
+
+
+## OUTPUT :
+
+<img width="1913" height="1078" alt="image" src="https://github.com/user-attachments/assets/abc68e41-23a8-4343-88c5-3147ea0b9183" />
