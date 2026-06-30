@@ -1,8 +1,8 @@
-step 1
+## step 1
 Installed Django
 
 pip install django
-Step 2
+## Step 2
 
 Create project
 
@@ -19,7 +19,8 @@ coursemanager/
 │      asgi.py
 │      wsgi.py
 │      __init__.py
-Step 3
+
+## Step 3
 
 Open these files and write a one-line comment at the top.
 
