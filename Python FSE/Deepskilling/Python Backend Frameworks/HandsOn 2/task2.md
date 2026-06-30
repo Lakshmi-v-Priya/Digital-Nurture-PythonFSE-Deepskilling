@@ -1,3 +1,6 @@
+### HANDSON 2 TASK 2 
+# Task 2: Django ORM Queries
+
 """
 Hands-On 2 - Task 2
 Django ORM Queries
@@ -9,6 +12,7 @@ Then execute:
 exec(open("handson2_task2.py").read())
 """
 
+```
 from courses.models import Department, Course, Student
 from django.db.models import Count, F
 
@@ -144,3 +148,8 @@ Department.objects.update(
 print("\nDepartment budgets increased by 10%.")
 
 print("\nHands-On 2 Task 2 Completed Successfully.")
+```
+
+# output :
+
+<img width="1188" height="1020" alt="image" src="https://github.com/user-attachments/assets/94822a8f-37a4-445c-8860-1ff1326a0d45" />
