@@ -47,3 +47,5 @@ admin.site.register(Enrollment)
 # output :
 
 <img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/3778d1d7-6da2-4e7b-a973-978060a6f1bc" />
+
+<img width="1918" height="1023" alt="image" src="https://github.com/user-attachments/assets/834d9280-c416-420d-872c-467dc4238529" />
