@@ -1,3 +1,7 @@
+## Screenshot of task2 :
+<img width="1918" height="1020" alt="Screenshot 2026-06-30 134727" src="https://github.com/user-attachments/assets/fa499ef8-8bf7-4d34-a6f4-8ad2833259ad" />
+
+
 ## step 1
 Installed Django
 
