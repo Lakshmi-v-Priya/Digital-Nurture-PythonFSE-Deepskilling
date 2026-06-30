@@ -23,7 +23,7 @@ Type:
 y
 ```
 
-```
+
 
 courses/admin.py
 
