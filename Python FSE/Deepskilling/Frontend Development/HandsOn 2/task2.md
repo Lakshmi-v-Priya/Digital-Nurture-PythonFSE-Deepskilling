@@ -1,7 +1,70 @@
 ## HTML code
 
 ```
-<section id="courses">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <h2 class="logo">Student Portal</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Grades</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section id="hero">
+
+            <h1>Welcome to the Student Portal</h1>
+
+            <p>
+                Access your profile, courses, grades and notifications in one place.
+            </p>
+
+            <button>Explore Courses</button>
+
+        </section>
+
+        <!-- Student Statistics -->
+
+        <section class="stats">
+
+            <div class="stat-item">
+                <h3>3</h3>
+                <p>Courses Enrolled</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>3.8</h3>
+                <p>GPA</p>
+            </div>
+
+            <div class="stat-item">
+                <h3>6</h3>
+                <p>Semester</p>
+            </div>
+
+        </section>
+
+        <section id="courses">
 
     <h2>Available Courses</h2>
 
@@ -40,6 +103,18 @@
     </div>
 
 </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2026 Student Portal. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+
+</html>
 ```
 
 ## CSS code
@@ -125,4 +200,5 @@
 }
 ```
 
-<img width="1915" height="837" alt="image" src="https://github.com/user-attachments/assets/a8c016ea-c0ea-41f0-8488-12073028fea1" />
+<img width="1915" height="967" alt="image" src="https://github.com/user-attachments/assets/cf297716-710a-4f5e-820f-fa137e49fd63" />
+
