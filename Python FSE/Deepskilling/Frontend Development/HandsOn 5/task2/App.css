@@ -1,0 +1,45 @@
+.search-box{
+
+text-align:center;
+
+margin:30px;
+
+}
+
+.search-box input{
+
+padding:12px;
+
+width:300px;
+
+font-size:18px;
+
+border-radius:5px;
+
+border:1px solid gray;
+
+}
+
+button{
+
+padding:10px 20px;
+
+background:#1e3a8a;
+
+color:white;
+
+border:none;
+
+border-radius:5px;
+
+cursor:pointer;
+
+margin-top:15px;
+
+}
+
+button:hover{
+
+background:#162b6f;
+
+}
