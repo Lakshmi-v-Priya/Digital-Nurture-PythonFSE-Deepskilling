@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    background: #b4bfe2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px;
+    background: white;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(233, 228, 228, 0.823);
+}
+
+footer {
+    text-align: center;
+    background: #d3caab;
+    color: white;
+    padding: 20px;
+}
