@@ -1,0 +1,31 @@
+<div
+class="card"
+
+[ngClass]="{
+  'excellent': grade==='A+',
+  'good': grade==='A'
+}"
+
+[ngStyle]="{
+  borderLeft: credits>=4 ? '6px solid green' : '6px solid orange'
+}"
+
+>
+
+<h2>{{name | uppercase}}</h2>
+
+<p>Course Code : {{code}}</p>
+
+<p>Credits : {{credits}}</p>
+
+<p>Grade : {{grade}}</p>
+
+<p>Fee : {{fee | currency:'INR'}}</p>
+
+<button (click)="enrollCourse()">
+
+Enroll
+
+</button>
+
+</div>

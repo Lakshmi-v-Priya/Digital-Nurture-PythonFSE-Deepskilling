@@ -1,0 +1,59 @@
+<h2>Available Courses</h2>
+
+<h3>
+
+Enrolled Courses : {{enrolledCount}}
+
+</h3>
+
+<input
+
+type="text"
+
+[(ngModel)]="searchTerm"
+
+placeholder="Search Course"
+
+>
+
+<div
+
+*ngIf="filteredCourses.length>0;else noCourses"
+
+>
+
+<app-course-card
+
+*ngFor="
+
+let course of filteredCourses;
+
+trackBy:trackByCourse
+
+"
+
+[id]="course.id"
+
+[name]="course.name"
+
+[code]="course.code"
+
+[credits]="course.credits"
+
+[grade]="course.grade"
+
+[fee]="course.fee"
+
+(enroll)="enrollStudent($event)"
+
+>
+
+</app-course-card>
+
+</div>
+
+<ng-template #noCourses>
+
+<h2>No Courses Found</h2>
+
+</ng-template>
